@@ -1,0 +1,20 @@
+Difference between statically typed and dynamically typed languages
+Statically typed -
+
+A programming language is said to be statically typed if type checking is performed during compile-time.
+Here types are associated with variables. Which means for a variable defined using int we can only assign integer values to it.
+It allows many type errors to be caught early at the development phase. 
+Here once the variable is assigned to a type, it cant be assigned to some other variable of different type.
+Few examples of statically typed java, c and c++.
+
+
+Dynamically typed -
+
+A programming language is said to be dynamically typed if type checking is performed during run-time.
+Here types are associated with values. Which means here based on the value we assign to a variable it will consider its type.
+It results in runtime type errors. Since it does not have a compilation step.
+Here one variable can be assigned to another variable of different type.
+Few examples of dynamically typed python, javascript, ruby and dart.
+
+
+

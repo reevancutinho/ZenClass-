@@ -1,0 +1,14 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1 - 
+It is a application protocol that exchanges information between client and server that is computer and the server, server can be local or remote.
+Here client makes plain text-based request to server using GET or POST methods in response to this HTML page is returned by the server.
+Here all the data or all the pages will not be returned at once to the client. 
+The request and response has to be done multiple times until all the data gets loaded in the web browser.
+
+
+HTTP2 -
+This was developed with the intention of loading the web pages faster using the techniques such as compression, Multiplexing and prioritization.
+Here HTTP2 uses binary framing layer to encapsulate all messages in binary format. 
+The conversion of messages into binary allows HTTP2 in different data delivery approaches .
+The binary framing layer encodes requests and responses and divides them into smaller packets of information which increases the flexibility of data.

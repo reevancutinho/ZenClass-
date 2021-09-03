@@ -1,0 +1,17 @@
+Scripting language vs programming language
+Scripting language -
+
+Scripting languages do not require compilation step and are rather interpreted. That is we don’t need to compile it before running.
+Here we don’t need convert our whole code into machine readable code at once .since it is executed statement by statement.
+It reduces syntax or we can say it has smaller code compared to programming language.
+When dealing with small application or small problems then it is better to use scripting languages since it is faster and consumes less memory for smaller programs.
+Some examples are python, Javascript, PHP, etc.
+
+
+Programming language -
+
+Programming languages require compilation step. That is before running we have to compile the code.
+Here the whole code will be converted into machine readable code when we compile it. 
+It has more syntax’s when compared to scripting language.
+When dealing with complex application it is better to use programming language, since it is faster for complex or big problems.
+Some examples are java, c, c++, etc.
