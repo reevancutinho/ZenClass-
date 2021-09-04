@@ -1,0 +1,5 @@
+Prototype
+
+* In simple words it is first version of a device from which other forms are developed.
+* It is a physical model of the answers to the challenges that the designers have already specified and discussed during the concept stage.
+* It allows designers to test their concepts by presenting whatever they have done in front of people and collect their inputs on it.

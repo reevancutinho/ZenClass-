@@ -1,0 +1,10 @@
+Execute the below code and write your description in txt file
+typeof(1) => Number
+typeof(1.1) => Number
+typeof('1.1') => String
+typeof(true) => boolean
+typeof(null) => object
+typeof(undefined) => undefined
+typeof([]) => object
+typeof({}) => object
+typeof(NaN) => Number

@@ -1,0 +1,10 @@
+Difference between Nodejs and Browserjs
+
+* Both nodejs and browser use javascript as their language but their Run Time Environments.
+* Node.js allows developers to create full-stack applications or it allows to create both backend and front end using a single programming language javascript.
+* Browserjs uses DOM(Document Object Module) which is a representation layer.
+* Browserjs can utilize the Web platform APIs such as cookies, which will help to track user information.
+* In Node.js it has direct access to the database or storage resources since Node.js has control over the server itself, Hence we dont need cookies.
+* Browserjs doesnt have access to several APIs such as file system.
+* In Node.js it allows to control the environment.
+* In Browserjs the environment is based on the browser version of the visitor. 

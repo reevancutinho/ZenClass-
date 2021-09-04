@@ -1,0 +1,6 @@
+Is it necessary to write head, body and html tag
+
+* It is not necessary to write html, body and head tag, infact it is allowed as per Google style guide.
+* The very early version of HTML didn't define those elements.
+* It is convenient to omit tags when writing test cases and while prototyping.
+* prototyping is asample version of a finished product, used for testing before the launch.

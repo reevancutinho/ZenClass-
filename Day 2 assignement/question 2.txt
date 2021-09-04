@@ -1,0 +1,6 @@
+* Even if make some mistake it will not through an error unlike most programming languages.
+* Parsing flow -> first it will take text and turn it into tokens then it will create parse tree and then will create DOM tree then script execution happens.
+* Tokenizer -> It will search for a open tag and close tag and then it will create a tokens.
+* There are certain situations where parsing of HTML is stopped, when it hits the script, link or style tags it might have to fetch some data then execute and continue with HTML.
+* DOM + CSSOM this is the actual representation of what will show on screen.
+* Some elements which are not in render tree are head, script, title and nodes hidden by display:none;.
