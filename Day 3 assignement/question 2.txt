@@ -1,0 +1,37 @@
+//Resume in JSON format
+let resume = {
+    "personal details":{
+        "name":"reevan",
+        "age":22,
+        "address":"mangalore"
+    },
+    "Qualification":{
+        "BE specialization":"CSE",
+        "CGPA":"7.24",
+        "University":"VTU"
+    },
+    "Skills":{
+        "Programming Languages":"c, c++, java, javascript",
+        "databases":"MySQL, MongoDB",
+    },
+    "Projects":{
+        "Major project":"DDOS attack detaction and classification using neural networks",
+        "Minor projects": "Driver drowsiness alert system",
+    }    
+}
+
+
+OUTPUT:
+PS C:\Users\chris\desktop\b27> node script.js
+{
+  'personal details': { name: 'reevan', age: 22, address: 'mangalore' },
+  Qualification: { 'BE specialization': 'CSE', CGPA: '7.24', University: 'VTU' },
+  Skills: {
+    'Programming Languages': 'c, c++, java, javascript',
+    databases: 'MySQL, MongoDB'
+  },
+  Projects: {
+    'Major project': 'DDOS attack detaction and classification using neural networks',
+    'Minor projects': 'Driver drowsiness alert system'
+  }
+}

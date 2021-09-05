@@ -1,0 +1,69 @@
+//I have considered an array of object which consists of details of 3 employees
+var employee = [
+    {
+        person:"reevan",
+        age:22,
+        company:"ITC Infotech"
+    },
+    {
+        person:"christopher",
+        age:21,
+        company:"TCS"
+    },
+    {
+        person:"cutinho",
+        age:20,
+        company:"cognizant"
+    }
+];
+
+
+//*******************for loop***********************************
+
+for(i=0;i<employee.length;i++) {
+    console.log(employee[i]);
+}
+
+Output:
+PS C:\Users\chris\desktop\b27> node script.js
+{ person: 'reevan', age: 22, company: 'ITC Infotech' }
+{ person: 'christopher', age: 21, company: 'TCS' }
+{ person: 'cutinho', age: 20, company: 'cognizant' }
+
+
+//*******************for in loop***********************************
+
+for(let emp in employee){
+    console.log(employee[emp])
+}
+
+Output:
+PS C:\Users\chris\desktop\b27> node script.js
+{ person: 'reevan', age: 22, company: 'ITC Infotech' }
+{ person: 'christopher', age: 21, company: 'TCS' }
+{ person: 'cutinho', age: 20, company: 'cognizant' }
+
+//*******************for of loop***********************************
+
+for(let emp of employee){
+    console.log(emp)
+}
+
+Output:
+PS C:\Users\chris\desktop\b27> node script.js
+{ person: 'reevan', age: 22, company: 'ITC Infotech' }
+{ person: 'christopher', age: 21, company: 'TCS' }
+{ person: 'cutinho', age: 20, company: 'cognizant' }
+
+
+//*******************forEach loop***********************************
+
+employee.forEach((item) => {
+    console.log(item);
+});
+
+Output:
+PS C:\Users\chris\desktop\b27> node script.js
+{ person: 'reevan', age: 22, company: 'ITC Infotech' }
+{ person: 'christopher', age: 21, company: 'TCS' }
+{ person: 'cutinho', age: 20, company: 'cognizant' }

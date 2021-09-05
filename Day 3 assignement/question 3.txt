@@ -1,0 +1,11 @@
+window:
+* window is a actual global object or it can also be referred as root of DOM.
+* window contains everything so we can call window.screen and window.document
+
+screen:
+* screen contains properties about users display
+* screen properties are width, height, etc.
+
+document:
+* document contains DOM
+* Each window object has a document object to be rendered.
