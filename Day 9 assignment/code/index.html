@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>1 & 2 are error fix, included in the document</h3>
+    <h1>____________________________________________________________________________________</h1>
+    <h3>3:Design a contact us form with all fields as required.</h3>
+
+    <h2>Contact us</h2>
+    <div class="container">
+        <form>
+            <label for="fname">First Name</label><br>
+            <input type="text" name="fname" placeholder="Your first name......"><br><br>
+            <label for="lname">Last Name</label><br>
+            <input type="text" name="lname" placeholder="Your last name......"><br><br>
+            <label for="phno">Phone number</label><br>
+            <input type="text" name="phno" placeholder="+91"><br><br>
+            <label for="comments">comments</label><br>
+            <textarea name="comments" name="comments" placeholder="comments" rows="4"></textarea><br><br>
+            <input type="submit" name="submit" value="submit">
+
+        </form>
+    </div>
+    <h1>____________________________________________________________________________________</h1>
+    <h3>4:Use certain HTML elements to display the following in a HTML page.</h3>
+
+    <div>
+        <ul>
+            <li>Programming Languages</li>
+            <ul style="list-style-type:circle;">
+                <li>Javascript</li>
+                <ol type='a'>
+                    <li>Angular</li>
+                    <li>React</li>
+                    <li>Vue.js</li>
+                </ol>
+                <li>Python</li>
+                <ol type='a'>
+                    <li>Django Framework</li>
+                    <li>Flask Framework</li>
+                </ol>
+                <li>Java</li>
+                <ol type='a'>
+                    <li>Spring</li>
+                    <li>Maven</li>
+                    <li>Hibernate</li>
+                </ol>
+            </ul>
+            <li>Database</li>
+            <ul style="list-style-type: circle;">
+                <li>Javascript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+            </ul>
+    </div>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>5:Create an element that helps you to open the https://google.com in separate new tab.</h3>
+
+    <a href="https://google.com/" target="_blank">click me to open link in a new tab</a>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>6:In the form, add two radio buttons with grouping them for employee type(Salaried and own business)</h3>
+
+    <form>
+        <p>Enter the type of employee</p>
+        <input type="radio" name="typeEmployee" value="Salaried">
+        <label>Salaried</label><br>
+        <input type="radio" name="typeEmployee" value="Own Business">
+        <label>Own business</label>
+    </form>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>7:Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)</h3>
+
+    <div class="card">
+        <form>
+            <fieldset>
+                <p>Yes! I want to subscribe to <i>MAG-O-Zine</i></p>
+                <div id="textfields">
+                    <label>First Name</label><input type="text" name="firstname">
+                    <label>Last Name</label><input type="text" name="lastname">
+                    <br>
+                    <label>Address</label><input type="text" name="address">
+                    <br>
+                    <label>City</label><input type="text" name="city">
+                    <label>State</label><input type="text" name="state">
+                    <label>Zip</label><input type="text" name="zip">
+                    <br>
+                </div>
+                <label>Subscribe for:</label>
+                <input type="radio" name="subscribe" value="1 year"><label>1 year ($19.95)</label>
+                <input type="radio" name="subscribe" value="2 year"><label>2 year ($35)</label>
+                <br>
+                <label>Send me more information about:</label><br>
+                <input type="checkbox" name="info" value="Computer-o-zine"><label>Computer-O-Zine</label><br>
+                <input type="checkbox" name="info" value="fishing-o-zine"><label>Fishing-Zine</label><br>
+                <input type="checkbox" name="info" value="cat-o-zine"><label>Cat-O-Zine</label><br>
+            </fieldset>
+        </form>
+    </div>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>8:Use the table tag to design given image Click here.</h3>
+
+    <div align="center">
+     <h4>Health chart</h4><br>
+     <table>
+         <tr>
+             <td rowspan="2">State of Health</td>
+             <td colspan="2">Fasting Value</td>
+             <td>After Eating</td>
+         </tr>
+         <tr>
+             <td>Minimum</td>
+             <td>Maximum</td>
+             <td>2 hours after eating</td>
+         </tr>
+         <tr>
+             <td>Healthy</td>
+             <td>70</td>
+             <td>100</td>
+             <td>Less than 140</td>
+         </tr>
+         <tr>
+             <td>Pre-Diabetes</td>
+             <td>101</td>
+             <td>126</td>
+             <td>140-200</td>
+         </tr>
+         <tr>
+             <td>Diabetes</td>
+             <td>More than 126</td>
+             <td>N/A</td>
+             <td>More than 200</td>
+         </tr>
+     </table>
+    </div>    
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>9:Write HTML input tags snippet to show default values for all Form elements.</h3>
+
+    <form>
+        <label>Text</label>
+                <input type="text" name="name" value="reevan">
+                <label><i>---Default value is reevan</i></label>
+                <br><br>
+        <label>Password</label>
+                <input type="password" name="password" value="1234">
+                <label><i>---default password is 1234</i></label>
+                <br><br>
+        <label>Color</label>
+        <input type="color" name="color" value="#00FF00">
+                <label><i>---default color is #00ff00</i></label>
+                <br><br>
+        <label>Date</label>
+                <input type="date" name="date" value="2021-05-27">
+                <label><i>---default date is 2021-05-27.</i></label>
+                <br><br>
+        <label>email</label>
+                <input type="email" name="email" value="reevan@gmail.com">
+                <label><i>---default email is reevan@gmail.com.</i></label>
+                <br><br>
+
+         <label>Range</label>
+                <input type="range" name="range" value="90">
+                <label><i>---default range is 90.</i></label>
+                <br><br>
+        <label>Time</label>
+                <input type="time" name="time" value="09:40">
+                <label><i>---default time is 9:40</i></label>
+                <br><br>
+        <label>Radio</label>
+                <input type="radio" name="animal" value="dog" checked>Dog
+                <input type="radio" name="animal" value="cat">Cat
+                <label><i>---by default dog will be checked</i></label>
+                <br><br>
+         <label>Checkbox</label>
+                <input type="checkbox" name="animal" value="dog" checked>Dog
+                <input type="checkbox" name="animal" value="cat" checked>Cat
+                <input type="checkbox" name="animal" value="tiger">Tiger
+                <label><i>---By default dog and cat will be checked</i></label>
+                <br><br>
+    </form>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>10:In your, HTML page add the below line and Highlight it without using any CSS.
+        "HTML & CSS is awesome"</h3>
+
+    <p><mark>HTML & CSS is awesome</mark>
+    <p></p>
+
+    <h1>____________________________________________________________________________________</h1>
+    <h3>11:Create an HTML page, which should contain all types of input elements.</h3>
+    <form method="" action="">
+                <label>Text</label>
+        <input type="text"  name="name" placeholder="Enter your name...">
+
+                <label><i>---Here in this field we can enter text</i></label>
+                <br><br>
+
+                <label>Password</label>
+        <input type="password" name="password" placeholder="Enter your password">
+                <label><i>---this type is used to enter password</i></label>
+                <br><br>
+                <label>Radio</label>
+                <input type="radio" name="animal" value="Dog">Dog
+                <input type="radio" name="animal" value="Cat">Cat
+                <label><i>---This is used to select one field from number of choices</i></label>
+                <br><br>
+                <label>Checkbox</label>
+                <input type="checkbox"  name="animal" value="Dog">Dog
+                <input type="checkbox"  name="animal" value="Cat">Cat
+                <input type="checkbox"  name="animal" value="Tiger">Tiger
+                <label><i>---This is used to select zero or more choices</i></label>
+                <br><br>
+                <label>Color</label>
+                <input type="color" name="color" value="#00ff00">
+                <label><i>---Here a color can be picked from a color picker. Value will give the default color.</i></label>
+                <br><br>
+                <label>Date</label>
+                <input type="date" name="date">
+                <label><i>---Using this we can select a particular date.</i></label>
+                <br><br>
+                <label>Datetime-local</label>
+                <input type="datetime-local" name="time">
+                <label><i>---Using this we can select both date and time.</i></label>
+                <br><br>
+                <label>email</label>
+                <input type="email" name="email">
+                <label><i>---This will allow us to enter email, it will throw an error if anything else entered other than email.</i></label>
+                <br><br>
+                <label>file</label>
+                <input type="file" name="file">
+                <label><i>---This will allow us to select file from the device.</i></label>
+                <br><br>
+                <label>Month</label>
+                <input type="month" name="month">
+                <label><i>---Using this we can select month of a particular year</i></label>
+                <br><br>
+                <label>Number</label>
+                <input type="number" name="number" min="0" max="5">
+                <label><i>---Here we can select a specific nuber, min and max represents minimum value and maximum value that can be selected.</i></label>
+                <br><br>
+                <label>Range</label>
+                <input type="range" name="range" min="0" max="100" value="20">
+                <label><i>---Here we can select a value from range of values.</i></label>
+                <br><br>
+                <label>Search</label>
+                <input type="search" name="search" placeholder="Search">
+                <label><i>---This is used for search field.</i></label>
+                <br><br>
+                <label>Tel</label>
+        <input type="tel" name="phone" pattern="[0-9]{10}">
+                <label><i>---In this field we can enter phone number where pattern indicates it should contacin 10 numbers between 0 to 9.</i></label>
+                <br><br>
+                
+
+                <label>URL</label>
+                <input type="url" name="url">
+                <label><i>---This field can be used to enter URLs.</i></label>
+                <br><br>
+                <label>Week</label>
+                <input type="week" name="week">
+                <label><i>---This field upon selecting the date will gave the number of week the date is in that particular year.</i></label>
+                <br><br>
+                <label>button</label>
+        <input type="button" value="click me">
+                <br><br>
+                <label>Submit</label>
+                <input type="submit" name="submit">
+                <label><i>---submitting data to a form handler</i></label>
+                <br><br>
+                <label>Reset</label>
+                <input type="reset" name="reset">
+                <label><i>---It will reset all form values to the default values</i></label>
+            
+    </form>
+</body>
+
+</html>
