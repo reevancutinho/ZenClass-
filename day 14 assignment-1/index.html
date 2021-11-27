@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/new.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+</head>
+
+<body>
+  <form style="border: none; margin-top: 15px;">
+    <label class="col-xs-12">Name<span style="color: red;">*</span></label><br>
+      <div class="col-xs-4">
+        <input type="text" class="form-control" name="first">
+        <label style="font-size:11px;">First</label>
+      </div>
+      <div class="col-xs-4">
+        <input type="text" class="form-control" name="last">
+        <label style="font-size:11px;">Last</label>
+      </div>
+      <div class="col-xs-8" style="margin-top:9px;">
+        <label>Email<span style="color: red;">*</span></label>
+        <input type="email" class="form-control" name="email">
+      </div>
+      <div class="star-rating col-xs-8" style="margin-top:20px;">
+        <div class="thanks-msg" style="font-weight: bold;margin-bottom: 10px;">Your Experience<span style="color: red;">*</span></div>
+        <div class="star-input col-xs-12">
+          <input type="radio" name="rating" id="rating-5">
+          <label for="rating-5" class="fas fa-star"></label>
+          <input type="radio" name="rating" id="rating-4">
+          <label for="rating-4" class="fas fa-star"></label>
+          <input type="radio" name="rating" id="rating-3">
+          <label for="rating-3" class="fas fa-star"></label>
+          <input type="radio" name="rating" id="rating-2">
+          <label for="rating-2" class="fas fa-star"></label>
+          <input type="radio" name="rating" id="rating-1">
+          <label for="rating-1" class="fas fa-star"></label>
+          <!-- Rating Submit Form -->
+        </div><br>
+        <p class="col-xs-12" style="font-size:10px;font-weight: bold;margin-top:10px">Overall,how would you rate your experience with us?</p>
+    </div>
+    <div class="col-xs-12" style="margin-top:9px;">
+      <label>How satisfied are you with<span style="color: red;">*</span></label>
+      <table>
+        <tr>
+          <td></td>
+          <td>Very Unsatisfied</td>
+          <td>Unsatisfied</td>
+          <td>Neutral</td>
+          <td>Satisfied</td>
+          <td>Very Satisfied</td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Purchase</td>
+          <td><input type="radio" name="Purchase" ></td>
+          <td><input type="radio" name="Purchase" ></td>
+          <td><input type="radio" name="Purchase" ></td>
+          <td><input type="radio" name="Purchase" ></td>
+          <td><input type="radio" name="Purchase" ></td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Service</td>
+          <td><input type="radio" name="Service" ></td>
+          <td><input type="radio" name="Service" ></td>
+          <td><input type="radio" name="Service" ></td>
+          <td><input type="radio" name="Service" ></td>
+          <td><input type="radio" name="Service" ></td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Company overall</td>
+          <td><input type="radio" name="Company overall" ></td>
+          <td><input type="radio" name="Company overall" ></td>
+          <td><input type="radio" name="Company overall" ></td>
+          <td><input type="radio" name="Company overall" ></td>
+          <td><input type="radio" name="Company overall" ></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-xs-12" style="margin-top:9px;">
+      <label>How likely are you to<span style="color: red;">*</span></label>
+      <table>
+        <tr>
+          <td></td>
+          <td>Very Unlikely</td>
+          <td>Unlikely</td>
+          <td>Neutral</td>
+          <td>Likely</td>
+          <td>Very Likely</td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Buy from us again</td>
+          <td><input type="radio" name="again" ></td>
+          <td><input type="radio" name="again" ></td>
+          <td><input type="radio" name="again" ></td>
+          <td><input type="radio" name="again" ></td>
+          <td><input type="radio" name="again" ></td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Recommend our <br>product to others</td>
+          <td><input type="radio" name="PRecommend" ></td>
+          <td><input type="radio" name="PRecommend" ></td>
+          <td><input type="radio" name="PRecommend" ></td>
+          <td><input type="radio" name="PRecommend" ></td>
+          <td><input type="radio" name="PRecommend" ></td>
+        </tr>
+        <tr>
+          <td style="text-align:left;font-size: 15px;width:25%;">Recommend our <br>company to others</td>
+          <td><input type="radio" name="CRecommend" ></td>
+          <td><input type="radio" name="CRecommend" ></td>
+          <td><input type="radio" name="CRecommend" ></td>
+          <td><input type="radio" name="CRecommend" ></td>
+          <td><input type="radio" name="CRecommend" ></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-xs-12" style="margin-top:15px;">
+      <label>Additional comments or suggestions</label>
+      <textarea rows="7"></textarea>
+    </div>
+    <div class="col-xs-12 btn" style="margin-top:12px">
+      <input type="submit" value="submit">
+    </div>
+  </form>
+</body>
+
+</html>
