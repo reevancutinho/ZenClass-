@@ -1,0 +1,56 @@
+CREATE TABLE student
+(studentId INTEGER PRIMARY KEY, 
+Name TEXT NOT NULL);
+
+INSERT INTO student VALUES (1, 'Reevan'), (2, 'Christopher'), (3, 'Cutinho'), (4, 'john'), (5, 'Doe');
+
+------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Mentor 
+(Id INTEGER PRIMARY KEY, 
+Name TEXT);
+
+INSERT INTO Mentor VALUES (1, "Rahul"), (2, "Sudeep"), (3, "Latha"), (4, "jyothi"), (5, "roy");
+
+------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Tasks 
+(Id INTEGER PRIMARY KEY,
+studentID INTEGER,
+Tasks_completed INTEGER,
+Pending_tasks INTEGER,
+FOREIGN KEY (studentID) REFERENCES student(studentID));
+
+INSERT INTO Tasks VALUES (1, 1, 15, 10), (1, 2, 14, 11), (2, 3, 12, 13), (3, 4, 10, 15);
+
+------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Attendance 
+(Id INTEGER PRIMARY KEY, 
+Attendance INTEGER,
+FOREIGN KEY (Id) REFERENCES student(studentID));
+
+INSERT INTO Attendance VALUES (1, 100), (2, 80), (3, 79), (4, 82), (5, 40);
+
+------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Courses 
+(Id INTEGER PRIMARY KEY, 
+Total_courses TEXT);
+
+INSERT INTO Courses VALUES (1, "MERN"), (2, "MEAN"), (3, "TESTING"), (4, "PYTHON");
+
+------------------------------------------------------------------------------------------------------------------------
+
+CREATE TABLE Student_activated_course 
+(Id INTEGER PRIMARY KEY, 
+Active_courseID INTEGER,
+FOREIGN KEY (Id) REFERENCES student(studentID),
+FOREIGN KEY (Active_courseID) REFERENCES Courses(Id)
+);
+
+INSERT INTO Student_activated_course VALUES (1, 2), (2, 1), (3, 4), (4, 4), (5, 2);
+
+------------------------------------------------------------------------------------------------------------------------
+
+
